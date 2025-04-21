@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenMitra – Empowering Financial Freedom</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 80px 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 40px;
+      color: #333;
+      animation: slideDown 1s ease-out;
+    }
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1 data-aos="fade-up">GenMitra</h1>
+  <p data-aos="fade-up" data-aos-delay="200">Your Financial Knowledge Partner</p>
+  <a href="login.html"><button data-aos="zoom-in" data-aos-delay="400">Login</button></a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
